@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'cliente-lembrete';
+  titulo = 'CRUD de lembrete com o Angular';
 }
