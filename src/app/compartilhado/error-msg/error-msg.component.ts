@@ -9,7 +9,7 @@ export class ErrorMsgComponent {
   public error: string;
   constructor() { }
 
-  setError(error: string, tempo: number = 5000){
+  setError(error: string, tempo: number = 5000) {
     this.error = error;
     setTimeout(() => {
       this.error = null;
